@@ -3,6 +3,8 @@
     package="com.lee.module_home">
 
     <application>
-        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
     </application>
 </manifest>
