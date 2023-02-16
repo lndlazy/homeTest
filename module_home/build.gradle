@@ -49,6 +49,10 @@ dependencies {
     //基础类库
     implementation 'com.github.lndlazy:mycommon:1.0.2'
 
+    implementation 'com.alibaba:arouter-api:1.5.2'
+    kapt 'com.alibaba:arouter-compiler:1.5.2'
+
+
     //以libary发布到jitpack
     implementation 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
 
