@@ -21,7 +21,7 @@ class HomeActivity : BaseActivity() {
     override fun initView() {
         findViewById<Button>(R.id.btn).setOnClickListener {
             //cart跳转到首页
-            ARouter.getInstance().build("cart/cartActivity")
+            ARouter.getInstance().build("/cart/cartActivity")
                 .withString("str", "homeActivity跳转过来的")
                 .withInt("int", 666)
                 .withBoolean("boolean", true)
