@@ -11,3 +11,4 @@ dependencyResolutionManagement {
 rootProject.name = "Home"
 include ':app'
 include ':module_home'
+include ':export_home'
